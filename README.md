@@ -4,7 +4,8 @@ Simple Note is a beautifully designed, feature-rich note-taking application buil
 
 Powered by Next.js and Firebase, Simple Note ensures your notes are always in sync across all your devices in real-time. The clean, responsive interface is built with Tailwind CSS and ShadCN UI, providing a polished user experience with both light and dark modes.
 
-![Simple Note Screenshot](<img width="1666" height="569" alt="image" src="https://github.com/user-attachments/assets/c131cbbc-fc44-45d9-93f8-52b33f230898" />)
+![Simple Note Screenshot]<img width="1666" height="568" alt="image" src="https://github.com/user-attachments/assets/425ca1d9-d758-4ffa-9999-78c1fc4afaae" />
+
 
 
 ## ✨ Key Features
