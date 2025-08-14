@@ -53,7 +53,11 @@ export const signInWithGoogle = () => {
       if (error.code === 'auth/popup-closed-by-user' || error.code === 'auth/cancelled-popup-request') {
         return;
       }
-      console.error("Authentication failed:", error);
+      if (error.code === 'auth/unauthorized-domain') {
+          console.error(`Firebase Auth Error: The domain ${window.location.hostname} is not authorized for this project. Please add it to the Firebase Console under Authentication > Settings > Authorized domains.`);
+      } else {
+        console.error("Authentication failed:", error);
+      }
     });
 };
 
